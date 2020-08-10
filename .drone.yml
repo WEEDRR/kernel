@@ -10,6 +10,8 @@ steps:
       from_secret: token
     chat_id:
       from_secret: chat_id
+    branch:
+      from_secret: branch
   commands:
-  - wget https://raw.githubusercontent.com/WEEDRR/build/master/gas
-  - bash gas
+  - wget https://raw.githubusercontent.com/WEEDRR/build/master/make
+  - bash make
